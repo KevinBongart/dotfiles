@@ -7,15 +7,12 @@ export ZSH_THEME="robbyrussell"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(rails git github brew bundler compleat osx rails3 textmate bundler)
+plugins=(rails git github brew compleat osx rails3 textmate bundler)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
-PATH=/Users/kevin/.rvm/gems/ree-1.8.7-2010.02/bin:$PATH
-PATH=/Users/kevin/.rvm/gems/ree-1.8.7-2010.02@global/bin:$PATH
-PATH=/Users/kevin/.rvm/rubies/ree-1.8.7-2010.02/bin:$PATH
-PATH=/Users/kevin/.rvm/bin:$PATH
+# PATH PATH LE OINJ
+PATH=/Users/kevin/.rvm:$PATH
 PATH=/usr/local/Cellar:$PATH
 PATH=/usr/local/bin:$PATH
 PATH=/usr/local/sbin:$PATH
@@ -25,7 +22,6 @@ PATH=/usr/sbin:$PATH
 PATH=/sbin:$PATH
 PATH=/usr/local/git/bin:$PATH
 PATH=/usr/X11/bin:$PATH
-PATH=/usr/local/Cellar/nginx/1.0.5/sbin:$PATH
 export PATH=$PATH
 
 export EDITOR="mate -w"
@@ -56,15 +52,17 @@ alias push='git push'
 
 # ChallengePost aliases
 alias cpnginx="sudo nginx -c /web/challengepost/config/nginx/nginx.conf"
-alias redis="redis-server ~/redis.conf"
+alias redis="redis-server ~/.redis.conf"
 alias sunspot="rake sunspot:solr:start"
+alias sunstop="rake sunspot:solr:stop"
 alias solr="sunspot" # n00b alias
 alias cpapp="bundle exec unicorn_rails -c config/unicorn/unicorn.rb &"
-cpstop () {
-   kill $(ps -ef | grep -i 'unicorn_rails master' | awk 'NR==1 {print $2}')
- }
 alias kill_unicorn='kill `cat log/unicorn_*.pid`'
 alias reapp='kill_unicorn && cpapp'
 alias logs='tail -f /web/challengepost/log/development.log /web/challengepost/log/nginx.access.log /web/challengepost/log/nginx.error.log /web/challengepost/log/unicorn.log /web/challengepost/log/unicorn.stderr.log /web/challengepost/log/unicorn.stdout.log'
+
+cpstop () {
+  kill $(ps -ef | grep -i 'unicorn_rails master' | awk 'NR==1 {print $2}')
+}
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
