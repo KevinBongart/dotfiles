@@ -12,17 +12,15 @@ plugins=(rails git github brew compleat osx rails3 textmate bundler)
 source $ZSH/oh-my-zsh.sh
 
 # PATH PATH LE OINJ
-PATH=/Users/kevin/.rvm:$PATH
-PATH=/usr/local/Cellar:$PATH
-PATH=/usr/local/bin:$PATH
-PATH=/usr/local/sbin:$PATH
-PATH=/usr/bin:$PATH
-PATH=/bin:$PATH
-PATH=/usr/sbin:$PATH
-PATH=/sbin:$PATH
-PATH=/usr/local/git/bin:$PATH
-PATH=/usr/X11/bin:$PATH
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=/usr/local/Cellar
+PATH=$PATH:/usr/local/bin
+PATH=$PATH:/usr/local/sbin
+PATH=$PATH:/usr/bin
+PATH=$PATH:/usr/sbin
+PATH=$PATH:/usr/local/git/bin
+PATH=$PATH:/usr/X11/bin
+PATH=$PATH:/bin
+PATH=$PATH:/sbin
 export PATH=$PATH
 
 export EDITOR='mate -w'
@@ -82,4 +80,9 @@ alias resque='QUEUE=* rake resque:work'
 alias logs='tail -f /web/platform/log/*.log'
 alias rspec='rspec --color --drb'
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+# PostgreSQL
+alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
+alias pgstop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
+
+# rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
