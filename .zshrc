@@ -23,7 +23,7 @@ PATH=$PATH:/bin
 PATH=$PATH:/sbin
 export PATH=$PATH
 
-export EDITOR='subl -w'
+export EDITOR='mate -w'
 export CUCUMBER_FORMAT=pretty
 
 # ChallengePost Ruby memory settings
