@@ -23,7 +23,7 @@ PATH=$PATH:/bin
 PATH=$PATH:/sbin
 export PATH=$PATH
 
-export EDITOR='mate -w'
+export EDITOR='subl -w'
 export CUCUMBER_FORMAT=pretty
 
 # ChallengePost Ruby memory settings
@@ -50,11 +50,12 @@ alias ping='colourify ping'
 alias traceroute='colourify /usr/sbin/traceroute'
 
 # .zshrc aliases
-alias zshrc='mate ~/.zshrc'
+alias zshrc='subl ~/.zshrc'
 alias src='source ~/.zshrc'
 
 # Smartass aliases
 alias m='mate'
+alias s='subl'
 alias l='ls -la'
 alias psaux='ps aux | grep'
 
@@ -69,7 +70,7 @@ alias push='git push'
 # ChallengePost aliases
 alias cpnginx='sudo nginx -c /web/platform/config/nginx/nginx.conf'
 alias redis='redis-server /web/redis/redis.conf'
-alias mysql='mysql.server start'
+alias mysqlstart='mysql.server start'
 alias sunspot='rake sunspot:solr:start'
 alias sunstop='rake sunspot:solr:stop'
 alias solr='sunspot' # n00b alias
