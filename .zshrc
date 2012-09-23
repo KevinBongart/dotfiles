@@ -32,23 +32,6 @@ export RUBY_HEAP_SLOTS_INCREMENT=1000000
 export RUBY_HEAP_SLOTS_GROWTH_FACTOR=2
 export RUBY_GC_MALLOC_LIMIT=100000000
 
-# COLORS
-source "`brew --prefix grc`/etc/grc.bashrc"
-alias colourify="$GRC -es --colour=auto"
-alias configure='colourify ./configure'
-alias diff='colourify diff'
-alias make='colourify make'
-alias gcc='colourify gcc'
-alias g++='colourify g++'
-alias as='colourify as'
-alias gas='colourify gas'
-alias git='colourify git'
-alias grep='colourify grep'
-alias ld='colourify ld'
-alias netstat='colourify netstat'
-alias ping='colourify ping'
-alias traceroute='colourify /usr/sbin/traceroute'
-
 # .zshrc aliases
 alias zshrc='subl ~/.zshrc'
 alias src='source ~/.zshrc'
