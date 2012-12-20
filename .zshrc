@@ -13,6 +13,8 @@ source $ZSH/oh-my-zsh.sh
 
 # PATH PATH LE OINJ
 PATH=/usr/local/Cellar
+PATH=$PATH:$HOME/.rbenv/bin
+PATH=$PATH:/usr/local/heroku/bin
 PATH=$PATH:/usr/local/bin
 PATH=$PATH:/usr/local/sbin
 PATH=$PATH:/usr/bin
@@ -23,7 +25,8 @@ PATH=$PATH:/bin
 PATH=$PATH:/sbin
 export PATH=$PATH
 
-export EDITOR='mate -w'
+export EDITOR='subl -w'
+export GIT_EDITOR='subl -w'
 export CUCUMBER_FORMAT=pretty
 
 # ChallengePost Ruby memory settings
@@ -60,13 +63,14 @@ alias solr='sunspot' # n00b alias
 alias cpapp='bundle exec unicorn -c /web/platform/config/unicorn/unicorn.rb -D'
 alias kill_unicorn='kill `cat /web/platform/log/unicorn_*.pid`'
 alias reapp='kill_unicorn && cpapp'
-alias resque='QUEUE=* rake resque:work'
+alias resque='QUEUE=* bundle exec rake resque:work'
 alias logs='tail -f /web/platform/log/*.log'
 alias rspec='rspec --color --drb'
+alias cucumber='bundle exec cucumber --drb'
 
 # PostgreSQL
 alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias pgstop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 
 # rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+eval "$(rbenv init -)"
