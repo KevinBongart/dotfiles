@@ -67,6 +67,7 @@ alias resque='QUEUE=* bundle exec rake resque:work'
 alias logs='tail -f /web/platform/log/*.log'
 alias rspec='rspec --color --drb'
 alias cucumber='bundle exec cucumber --drb'
+alias prodconsole='echo "cd /data/platform/current; bundle exec rails c" | ssh -t -t platform_production_redis_and_background_jobs'
 
 # PostgreSQL
 alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
