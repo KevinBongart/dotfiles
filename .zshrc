@@ -57,6 +57,7 @@ alias push='git push'
 alias cpnginx='sudo nginx -c /web/platform/config/nginx/nginx.conf'
 alias redis='redis-server /web/redis/redis.conf'
 alias mysqlstart='mysql.server start'
+alias mysqlstop='mysql.server stop'
 alias sunspot='rake sunspot:solr:start'
 alias sunstop='rake sunspot:solr:stop'
 alias solr='sunspot' # n00b alias
