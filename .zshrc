@@ -47,10 +47,10 @@ alias psaux='ps aux | grep'
 
 # Git aliases
 alias gs='git status'
-alias ga='git add .'
+alias ga='git add --all . && git status'
+alias gca='git add --all . && git commit -v'
 alias gd='git diff .'
 alias gpr='git pull --rebase'
-alias gp='git push'
 alias push='git push'
 
 # ChallengePost aliases
