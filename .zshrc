@@ -55,7 +55,7 @@ alias push='git push'
 
 # ChallengePost aliases
 alias cpnginx='sudo nginx -c /web/platform/config/nginx/nginx.conf'
-alias redis='redis-server /web/redis/redis.conf'
+alias redis='redis-server /web/platform/config/redis/development.conf'
 alias mysqlstart='mysql.server start'
 alias mysqlstop='mysql.server stop'
 alias sunspot='rake sunspot:solr:start'
