@@ -11,6 +11,8 @@ plugins=(rails git github brew compleat osx rails3 textmate bundler)
 
 source $ZSH/oh-my-zsh.sh
 
+PROMPT='%{$fg_bold[red]%}%m%{$fg_bold[green]%}%p %{$fg[cyan]%}%c %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
+
 # PATH PATH LE OINJ
 PATH=/usr/local/Cellar
 PATH=$PATH:$HOME/.rbenv/bin
