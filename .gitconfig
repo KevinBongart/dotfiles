@@ -1,0 +1,9 @@
+[color]
+	ui = true
+[core]
+	editor = subl
+[user]
+	name = Kevin Bongart
+  email = contact@kevinbongart.net
+[push]
+  default=current
