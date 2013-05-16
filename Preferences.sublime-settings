@@ -1,0 +1,57 @@
+{
+	"auto_indent": true,
+	"color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.rdb",
+		"*.log",
+		"*capybara*",
+		"*.cache"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"log",
+		"tmp",
+		"solr",
+		".bundle",
+		"build",
+		".sass-cache"
+	],
+	"font_face": "Monaco",
+	"font_size": 14.0,
+	"ignored_packages":
+	[
+		"Vintage",
+		"TrailingSpaces",
+		"SublimeBlockCursor",
+		"IndentGuides"
+	],
+	"tab_size": 2,
+	"theme": "Soda Light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
