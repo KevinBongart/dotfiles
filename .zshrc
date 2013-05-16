@@ -7,7 +7,7 @@ export ZSH_THEME="robbyrussell"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(rails git github brew compleat osx rails3 textmate bundler)
+plugins=(rails git github brew compleat osx rails3 textmate bundler knife)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -31,12 +31,6 @@ export EDITOR='subl -w'
 export GIT_EDITOR='subl -w'
 export CUCUMBER_FORMAT=pretty
 
-# ChallengePost Ruby memory settings
-export RUBY_HEAP_MIN_SLOTS=2000000
-export RUBY_HEAP_SLOTS_INCREMENT=1000000
-export RUBY_HEAP_SLOTS_GROWTH_FACTOR=2
-export RUBY_GC_MALLOC_LIMIT=100000000
-
 # .zshrc aliases
 alias zshrc='subl ~/.zshrc'
 alias src='source ~/.zshrc'
@@ -44,13 +38,14 @@ alias src='source ~/.zshrc'
 # Smartass aliases
 alias m='mate'
 alias s='subl'
-alias l='ls -la'
+alias l='ls -lah'
 alias psaux='ps aux | grep'
 
 # Git aliases
 alias gs='git status'
 alias ga='git add --all . && git status'
 alias gca='git add --all . && git commit -v'
+alias gc='git checkout'
 alias gd='git diff .'
 alias gpr='git pull --rebase'
 alias push='git push'
