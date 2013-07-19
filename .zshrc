@@ -7,7 +7,7 @@ export ZSH_THEME="robbyrussell"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(rails git github brew compleat osx rails3 textmate bundler knife)
+plugins=(rails git github brew compleat osx rails3 textmate knife)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -63,10 +63,11 @@ alias kill_unicorn='kill `cat /web/platform/log/unicorn_*.pid`'
 alias reapp='kill_unicorn && cpapp'
 alias resque='QUEUE=* bundle exec rake resque:work'
 alias logs='tail -f /web/platform/log/*.log'
-alias rspec='rspec --color --drb'
+alias rspec='bundle exec rspec --color --drb'
 alias cucumber='bundle exec cucumber --drb'
 alias prodconsole='echo "cd /data/platform/current; bundle exec rails c" | ssh -t -t platform_production_redis_and_background_jobs'
 alias ci='(cd /web/platform; build/schedule_build.sh -s)'
+alias rspec='bundle exec rspec'
 
 # PostgreSQL
 alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
