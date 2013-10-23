@@ -66,8 +66,10 @@ alias logs='tail -f /web/platform/log/*.log'
 alias rspec='bundle exec rspec --color --drb'
 alias cucumber='bundle exec cucumber --drb'
 alias prodconsole='echo "cd /data/platform/current; bundle exec rails c" | ssh -t -t platform_production_redis_and_background_jobs'
-alias ci='(cd /web/platform; build/schedule_build.sh -s)'
+alias ci='/web/platform/build/schedule_build build --no-wait'
 alias rspec='bundle exec rspec'
+alias be='bundle exec'
+alias rake='bundle exec rake'
 
 # PostgreSQL
 alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
