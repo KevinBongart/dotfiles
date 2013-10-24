@@ -3,6 +3,9 @@ dotfiles
 
 These are my own config files for:
 
-- Zsh
-- Git
-- Rspec
+- .gemrc
+- .gitconfig
+- .rspec
+- .zshrc
+- oh-my-zsh
+- Sublime Text 3
