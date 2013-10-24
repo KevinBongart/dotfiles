@@ -4,6 +4,6 @@
 [push]
   default = simple
 [core]
-  editor = s
+  editor = s -w
 [color]
   ui = true
