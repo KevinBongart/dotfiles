@@ -2,6 +2,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_MODULES=$HOME/Projects/dotfiles/zsh
 ZSH_THEME="robbyrussell"
 COMPLETION_WAITING_DOTS="true"
+UNBUNDLED_COMMANDS=(foreman) # commands you don't want the bundler plugin to run
 
 plugins=(git bundler zsh-syntax-highlighting)
 
