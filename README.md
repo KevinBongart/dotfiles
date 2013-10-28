@@ -11,24 +11,39 @@ These are my own config files for:
 - oh-my-zsh
 - Sublime Text 3
 
-Setup
------
+Using the dotfiles
+------------------
 
 1. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 2. Copy `dotfiles/.zshrc` to `~/.zshrc`
 3. Customize `~/.zshrc` to your needs, including the path to `$ZSH_MODULES`
 
+Turning a clean OS X install into a Ruby dev machine
+----------------------------------------------------
+
+(This section is mostly for future-me.)
+
+1. Install the [Command Line Tools](https://developer.apple.com/downloads)
+2. Install [Homebrew](http://brew.sh): `ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"`
+3. Install [rbenv](https://github.com/sstephenson/rbenv): `brew install rbenv ruby-build`
+4. Go wild
+
 Make Sublime Text 3 Awesomer
 ----------------------------
 
-Install:
-
-- [Package Control](https://sublime.wbond.net/installation)
-- Soda Theme
-- Solarized Color Scheme
-- All Autocomplete
-- Sass
-- SideBarEnhancement
-- TrailingSpaces
+1. Install:
+  - [Package Control](https://sublime.wbond.net/installation)
+  - Soda Theme
+  - Solarized Color Scheme
+  - All Autocomplete
+  - Sass
+  - SideBarEnhancement
+  - TrailingSpaces
+2. Paste [Preferences.sublime-settings]() into Sublime Text settings file
 
 [More resources, including a nice icon](http://blog.alexmaccaw.com/sublime-text)
+
+Cool gems
+---------
+
+`gem install git_remote_branch`
