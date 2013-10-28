@@ -18,8 +18,8 @@ Using the dotfiles
 2. Copy `dotfiles/.zshrc` to `~/.zshrc`
 3. Customize `~/.zshrc` to your needs, including the path to `$ZSH_MODULES`
 
-Turning a clean OS X install into a Ruby dev machine
-----------------------------------------------------
+Turning OS X install into a Ruby dev machine
+--------------------------------------------
 
 (This section is mostly for future-me.)
 
@@ -39,7 +39,7 @@ Make Sublime Text 3 Awesomer
   - Sass
   - SideBarEnhancement
   - TrailingSpaces
-2. Paste [Preferences.sublime-settings]() into Sublime Text settings file
+2. Paste [Preferences.sublime-settings](https://github.com/KevinBongart/dotfiles/blob/master/Preferences.sublime-settings) into Sublime Text settings file
 
 [More resources, including a nice icon](http://blog.alexmaccaw.com/sublime-text)
 
