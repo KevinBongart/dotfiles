@@ -4,7 +4,15 @@ ZSH_THEME="robbyrussell"
 COMPLETION_WAITING_DOTS="true"
 UNBUNDLED_COMMANDS=(foreman) # commands you don't want the bundler plugin to run
 
-plugins=(bundler git git-remote-branch zsh-syntax-highlighting)
+plugins=(
+  brew
+  bundler
+  compleat
+  gem
+  git
+  git-remote-branch
+  zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 source $ZSH_MODULES/path.sh
