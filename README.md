@@ -43,7 +43,9 @@ Make Sublime Text 3 Awesomer
 
 [More resources, including a nice icon](http://blog.alexmaccaw.com/sublime-text)
 
-Cool gems
----------
+Cool stuff
+----------
 
-`gem install git_remote_branch`
+- `gem install git_remote_branch`
+- [rake-fast](https://github.com/KevinBongart/rake-fast): Fast rake autocompletion plugin for oh-my-zsh
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting): Fish shell like syntax highlighting for Zsh

@@ -5,12 +5,13 @@ COMPLETION_WAITING_DOTS="true"
 UNBUNDLED_COMMANDS=(foreman) # commands you don't want the bundler plugin to run
 
 plugins=(
-  brew
   bundler
+  brew
   compleat
   gem
   git
   git-remote-branch
+  rake-fast
   zsh-syntax-highlighting
 )
 
