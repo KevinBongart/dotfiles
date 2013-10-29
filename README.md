@@ -28,7 +28,7 @@ Turning OS X install into a Ruby dev machine
 3. Install [rbenv](https://github.com/sstephenson/rbenv): `brew install rbenv ruby-build`
 4. Go wild
 
-Make Sublime Text 3 Awesomer
+Making Sublime Text 3 Awesomer
 ----------------------------
 
 1. Install:
