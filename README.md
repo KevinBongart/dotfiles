@@ -46,7 +46,7 @@ Making Sublime Text 3 Awesomer
 Cool stuff
 ----------
 
-- `gem install git_remote_branch`
+- [git-remote-branch](https://github.com/webmat/git_remote_branch): A tool to simplify working with remote branches
 - [rake-fast](https://github.com/KevinBongart/rake-fast): Fast rake autocompletion plugin for oh-my-zsh
 - [bundler](https://github.com/KevinBongart/bundler): bundler plugin that lets you list commands you don't want bundler to run
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting): Fish shell like syntax highlighting for Zsh
