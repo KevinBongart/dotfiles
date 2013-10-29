@@ -15,7 +15,7 @@ Using the dotfiles
 ------------------
 
 1. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-2. Copy `dotfiles/.zshrc` to `~/.zshrc`
+2. Symlink `.zshrc` to `dotfiles/.zshrc`: `ln -sf ~/Dropbox/dotfiles/.zshrc ~/.zshrc`
 3. Customize `~/.zshrc` to your needs, including the path to `$ZSH_MODULES`
 
 Turning OS X install into a Ruby dev machine
