@@ -5,6 +5,7 @@ COMPLETION_WAITING_DOTS="true"
 UNBUNDLED_COMMANDS=(foreman) # commands you don't want the bundler plugin to run
 
 plugins=(
+  autojump
   bundler
   brew
   compleat
@@ -18,6 +19,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source $ZSH_MODULES/path.sh
 source $ZSH_MODULES/aliases.sh
+source $ZSH_MODULES/autojump.sh
 source $ZSH_MODULES/challengepost.sh
 source $ZSH_MODULES/git.sh
 source $ZSH_MODULES/mysql.sh
