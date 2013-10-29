@@ -1,10 +1,10 @@
 [user]
-	name = Kevin Bongart
-	email = contact@kevinbongart.net
+  name = Kevin Bongart
+  email = contact@kevinbongart.net
 [push]
-	default = simple
+  default = simple
 [core]
-	editor = s -w
-	excludesfile = /Users/Kevin/.gitignore_global
+  editor = s -w
+  excludesfile = /Users/Kevin/.gitignore_global
 [color]
-	ui = true
+  ui = true
