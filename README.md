@@ -25,19 +25,16 @@ Turning OS X install into a Ruby dev machine
 
 1. Install the [Command Line Tools](https://developer.apple.com/downloads)
 2. Install [Homebrew](http://brew.sh)
-3. Install git, rbenv and everything else:
-
-  ```bash
-  brew install autojump git memcached mysql nginx postgresql rbenv ruby-build redis
-  ```
+3. Install git, rbenv and everything else: `brew install autojump git memcached mysql nginx postgresql rbenv ruby-build redis`
 
 Making Sublime Text 3 Awesomer
 ------------------------------
 
-1. Install:
-  - [Package Control](https://sublime.wbond.net/installation)
+1. Install [Package Control](https://sublime.wbond.net/installation)
+2. Install a nice theme and color scheme:
   - Soda Theme
   - Solarized Color Scheme
+3. Install these plugins:
   - All Autocomplete
   - Better CoffeeScript
   - Markdown Preview
@@ -45,7 +42,7 @@ Making Sublime Text 3 Awesomer
   - Sass
   - SideBarEnhancement
   - TrailingSpaces
-2. Paste [Preferences.sublime-settings](https://github.com/KevinBongart/dotfiles/blob/master/Preferences.sublime-settings) into Sublime Text settings file
+4. Paste [Preferences.sublime-settings](https://github.com/KevinBongart/dotfiles/blob/master/Preferences.sublime-settings) into Sublime Text settings file
 
 [More resources, including a nice icon](http://blog.alexmaccaw.com/sublime-text)
 
