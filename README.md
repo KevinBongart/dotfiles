@@ -25,8 +25,11 @@ Turning OS X install into a Ruby dev machine
 
 1. Install the [Command Line Tools](https://developer.apple.com/downloads)
 2. Install [Homebrew](http://brew.sh): `ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"`
-3. Install [rbenv](https://github.com/sstephenson/rbenv): `brew install rbenv ruby-build`
-4. Go wild
+3. Install git, rbenv and everything else:
+
+  ```bash
+  brew install git memcached mysql nginx postgresql rbenv ruby-build redis
+  ```
 
 Making Sublime Text 3 Awesomer
 ----------------------------
