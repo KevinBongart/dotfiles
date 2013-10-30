@@ -28,17 +28,20 @@ Turning OS X install into a Ruby dev machine
 3. Install git, rbenv and everything else:
 
   ```bash
-  brew install git memcached mysql nginx postgresql rbenv ruby-build redis
+  brew install autojump git memcached mysql nginx postgresql rbenv ruby-build redis
   ```
 
 Making Sublime Text 3 Awesomer
-----------------------------
+------------------------------
 
 1. Install:
   - [Package Control](https://sublime.wbond.net/installation)
   - Soda Theme
   - Solarized Color Scheme
   - All Autocomplete
+  - Better CoffeeScript
+  - Markdown Preview
+  - RailsGoToSpec
   - Sass
   - SideBarEnhancement
   - TrailingSpaces
