@@ -1,9 +1,10 @@
 # Git aliases
 alias gs='git status'
-alias ga='git add --all . && git status'
-alias gca='git add --all . && git commit -v'
-alias gc='git checkout'
-alias gd='git diff .'
 alias gpr='git pull --rebase'
 alias push='git push'
+
+# Eject button for git
 alias gfuck='git reset . && git checkout . && git clean -df'
+
+# More aliases available in the git plugin for oh-my-zsh:
+# https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh
