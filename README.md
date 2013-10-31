@@ -3,13 +3,14 @@ dotfiles
 
 These are my own config files for:
 
+- oh-my-zsh
+- Sublime Text 3
 - .gemrc
 - .gitconfig
 - .pryrc
 - .rspec
-- .zshrc
-- oh-my-zsh
-- Sublime Text 3
+
+![screenshot](https://raw.github.com/KevinBongart/gitsome/master/screenshot.png)
 
 Using the dotfiles
 ------------------
@@ -17,6 +18,8 @@ Using the dotfiles
 1. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 2. Symlink `.zshrc` to `dotfiles/.zshrc`: `ln -sf ~/Dropbox/dotfiles/.zshrc ~/.zshrc`
 3. Customize `~/.zshrc` to your needs, including the path to `$ZSH_MODULES`
+
+You'll also want to install this [flat-terminal](https://github.com/KevinBongart/flat-terminal) theme for Terminal and [gitsome](https://github.com/KevinBongart/gitsome) theme for oh-my-zsh.
 
 Turning OS X install into a Ruby dev machine
 --------------------------------------------
