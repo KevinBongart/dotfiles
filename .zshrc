@@ -2,6 +2,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_MODULES=$HOME/Dropbox/Projects/dotfiles/zsh_modules
 ZSH_THEME="robbyrussell"
 COMPLETION_WAITING_DOTS="true"
+DISABLE_AUTO_TITLE="true"
 UNBUNDLED_COMMANDS=(foreman) # commands you don't want the bundler plugin to run
 
 plugins=(
