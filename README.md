@@ -33,11 +33,12 @@ Turning OS X install into a Ruby dev machine
 Making Sublime Text 3 Awesomer
 ------------------------------
 
-1. Install [Package Control](https://sublime.wbond.net/installation)
-2. Install a nice theme and color scheme:
+1. Add Sublime Text to your command line tools as `s` (Ain't Nobody Got Time for `subl`): `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /bin/s`        
+2. Install [Package Control](https://sublime.wbond.net/installation)
+3. Install a nice theme and color scheme:
   - Soda Theme
   - Solarized Color Scheme
-3. Install these plugins:
+4. Install these plugins:
   - All Autocomplete
   - Better CoffeeScript
   - Markdown Preview
@@ -45,7 +46,7 @@ Making Sublime Text 3 Awesomer
   - Sass
   - SideBarEnhancement
   - TrailingSpaces
-4. Paste [Preferences.sublime-settings](https://github.com/KevinBongart/dotfiles/blob/master/Preferences.sublime-settings) into Sublime Text settings file
+5. Paste [Preferences.sublime-settings](https://github.com/KevinBongart/dotfiles/blob/master/Preferences.sublime-settings) into Sublime Text settings file
 
 [More resources, including a nice icon](http://blog.alexmaccaw.com/sublime-text)
 
