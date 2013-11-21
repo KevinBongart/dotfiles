@@ -13,6 +13,7 @@ plugins=(
   gem
   git
   git-remote-branch
+  osx
   rake-fast
   zsh-syntax-highlighting
 )
