@@ -2,7 +2,7 @@
   name = Kevin Bongart
   email = contact@kevinbongart.net
 [push]
-  default = simple
+  default = current
 [core]
   editor = s -w
   excludesfile = /Users/Kevin/.gitignore_global
