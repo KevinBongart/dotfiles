@@ -33,6 +33,8 @@ Turning OS X install into a Ruby dev machine
 Making Sublime Text 3 Awesomer
 ------------------------------
 
+![Sublime Text](http://f.cl.ly/items/3A1p1u0S1w2U3i0c0n0H/sublime_screenshot.png)
+
 1. Add Sublime Text to your command line tools as `s` (Ain't Nobody Got Time for `subl`): `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /bin/s`        
 2. Install [Package Control](https://sublime.wbond.net/installation)
 3. Install a nice theme and color scheme:
@@ -47,8 +49,11 @@ Making Sublime Text 3 Awesomer
   - SideBarEnhancement
   - TrailingSpaces
 5. Paste [Preferences.sublime-settings](https://github.com/KevinBongart/dotfiles/blob/master/Preferences.sublime-settings) into Sublime Text settings file
+6. Download [Elliot Jackson](http://dribbble.com/shots/872166-Sublime-Text-2-Replacement-Icon)'s [nice icon](http://cl.ly/Sgqw) to replace the default Sublime Text one: `mv ~/Downloads/sublimetext.icns /Applications/Sublime\ Text.app/Contents/Resources/Sublime\ Text.icns`
 
-[More resources, including a nice icon](http://blog.alexmaccaw.com/sublime-text)
+![Dock](http://f.cl.ly/items/3p1k260E28123c3h1R2Y/dock.png)
+
+[More resources](http://blog.alexmaccaw.com/sublime-text)
 
 Cool stuff
 ----------
