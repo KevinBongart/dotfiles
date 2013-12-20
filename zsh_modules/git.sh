@@ -1,5 +1,6 @@
 # Git aliases
 alias gs='git status'
+alias gca='git add --all && git commit'
 alias gpr='git pull --rebase'
 alias push='git push'
 
