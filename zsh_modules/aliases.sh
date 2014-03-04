@@ -5,3 +5,6 @@ alias src="source $HOME/.zshrc"
 # Smartass aliases
 alias l='ls -lah'
 alias psaux='ps aux | grep'
+
+# Editor
+alias a='atom'
