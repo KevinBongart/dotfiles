@@ -8,3 +8,5 @@
   excludesfile = /Users/Kevin/.gitignore_global
 [color]
   ui = true
+[rerere]
+	enabled = 1
