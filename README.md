@@ -35,7 +35,7 @@ Making Sublime Text 3 Awesomer
 
 ![Sublime Text](http://f.cl.ly/items/3A1p1u0S1w2U3i0c0n0H/sublime_screenshot.png)
 
-1. Add Sublime Text to your command line tools as `s` (Ain't Nobody Got Time for `subl`): `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /bin/s`        
+1. Add Sublime Text to your command line tools: `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /bin/subl`
 2. Install [Package Control](https://sublime.wbond.net/installation)
 3. Install a nice theme and color scheme:
   - Soda Theme

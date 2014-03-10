@@ -15,6 +15,7 @@ plugins=(
   git-remote-branch
   osx
   rake-fast
+  sublime
   zsh-syntax-highlighting
 )
 
