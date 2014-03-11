@@ -1,12 +1,22 @@
 [user]
   name = Kevin Bongart
   email = contact@kevinbongart.net
-[push]
-  default = current
 [core]
   editor = subl -w
   excludesfile = ~/.gitignore_global
 [color]
   ui = true
+[push]
+  default = current
+
+# Making Git a Little Less Verbose:
+# http://technosorcery.net/blog/2011/12/11/making-git-a-little-less-verbose/
+[advice]
+  pushNonFastForward = false
+  statusHints = false
+
+# Reuse Recorded Resolutions:
+# http://git-scm.com/blog/2010/03/08/rerere.html
 [rerere]
   enabled = 1
+
