@@ -19,4 +19,3 @@
 # http://git-scm.com/blog/2010/03/08/rerere.html
 [rerere]
   enabled = 1
-
