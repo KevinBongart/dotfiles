@@ -1,9 +1,11 @@
 ZSH=$HOME/.oh-my-zsh
-ZSH_MODULES=$HOME/Dropbox/Projects/dotfiles/zsh_modules
-ZSH_THEME="gitsome"
+DOTFILES=$HOME/Dropbox/Projects/dotfiles
+ZSH_MODULES=$DOTFILE/zsh_modules
+
+ZSH_THEME="gitsome"             # https://github.com/KevinBongart/gitsome
 COMPLETION_WAITING_DOTS="true"
 DISABLE_AUTO_TITLE="true"
-UNBUNDLED_COMMANDS=(foreman) # commands you don't want the bundler plugin to run
+UNBUNDLED_COMMANDS=(foreman)    # commands you don't want to run with bundler
 
 plugins=(
   autojump
