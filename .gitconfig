@@ -2,7 +2,7 @@
   name = Kevin Bongart
   email = contact@kevinbongart.net
 [core]
-  editor = subl -w
+  editor = subl --wait
   excludesfile = ~/.gitignore_global
 [color]
   ui = true
