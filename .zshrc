@@ -1,6 +1,6 @@
 ZSH=$HOME/.oh-my-zsh
 DOTFILES=$HOME/Dropbox/Projects/dotfiles
-ZSH_MODULES=$DOTFILE/zsh_modules
+ZSH_MODULES=$DOTFILES/zsh_modules
 
 ZSH_THEME="gitsome"             # https://github.com/KevinBongart/gitsome
 COMPLETION_WAITING_DOTS="true"
