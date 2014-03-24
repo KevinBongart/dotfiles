@@ -4,7 +4,6 @@ ZSH_MODULES=$DOTFILES/zsh_modules
 
 ZSH_THEME="gitsome"             # https://github.com/KevinBongart/gitsome
 COMPLETION_WAITING_DOTS="true"
-DISABLE_AUTO_TITLE="true"
 UNBUNDLED_COMMANDS=(foreman)    # commands you don't want to run with bundler
 
 plugins=(
