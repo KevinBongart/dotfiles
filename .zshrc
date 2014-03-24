@@ -10,6 +10,7 @@ plugins=(
   autojump
   bundler
   brew
+  brew-cask
   compleat
   gem
   git
