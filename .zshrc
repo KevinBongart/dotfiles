@@ -19,6 +19,7 @@ plugins=(
   rails
   rake-fast
   sublime
+  zsh_reload
   zsh-syntax-highlighting
 )
 
