@@ -1,5 +1,5 @@
 # .zshrc aliases
-alias zshrc="s $HOME/.zshrc $HOME/Dropbox/Projects/dotfiles"
+alias zshrc="subl $HOME/.zshrc $DOTFILES"
 
 # Editors
 alias a='atom'
