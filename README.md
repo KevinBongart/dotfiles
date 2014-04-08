@@ -9,6 +9,8 @@ These are my own config files for:
 - .gitconfig
 - .pryrc
 - .rspec
+- 
+test
 
 ![screenshot](https://raw.github.com/KevinBongart/gitsome/master/screenshot.png)
 
