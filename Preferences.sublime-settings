@@ -1,7 +1,9 @@
 {
   "auto_indent": true,
+  "caret_style": "phase",
   "color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
   "ensure_newline_at_eof_on_save": true,
+  "fade_fold_buttons": false,
   "file_exclude_patterns":
   [
     "*.a",
@@ -46,11 +48,13 @@
   ],
   "font_face": "Monaco",
   "font_size": 16,
+  "highlight_line": true,
   "highlight_modified_tabs": true,
   "ignored_packages":
   [
     "Vintage"
   ],
+  "scroll_past_end": true,
   "tab_size": 2,
   "theme": "Soda Light.sublime-theme",
   "translate_tabs_to_spaces": true,
