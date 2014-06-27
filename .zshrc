@@ -34,4 +34,6 @@ source $ZSH_MODULES/postgresql.sh
 source $ZSH_MODULES/rbenv.sh
 source $ZSH_MODULES/variables.sh
 
-archey -c
+if which archey > /dev/null 2>&1; then
+  archey -c
+fi
