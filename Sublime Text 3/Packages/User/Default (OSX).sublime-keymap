@@ -1,0 +1,11 @@
+[
+  { "keys": ["super+ctrl+r"], "command": "reveal_in_side_bar"},
+  { "keys": ["enter"],
+    "command": "next_result",
+    "context": [{
+      "key": "selector",
+      "operator": "equal",
+      "operand": "text.find-in-files"
+    }]
+  }
+]
