@@ -15,6 +15,7 @@ plugins=(
   gem
   git
   git-remote-branch
+  heroku
   osx
   postgres
   rails
