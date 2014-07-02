@@ -16,6 +16,7 @@ plugins=(
   git
   git-remote-branch
   osx
+  postgres
   rails
   rake-fast
   sublime
@@ -30,7 +31,6 @@ source $ZSH_MODULES/autojump.sh
 source $ZSH_MODULES/go.sh
 source $ZSH_MODULES/git.sh
 source $ZSH_MODULES/mysql.sh
-source $ZSH_MODULES/postgresql.sh
 source $ZSH_MODULES/rbenv.sh
 source $ZSH_MODULES/variables.sh
 
