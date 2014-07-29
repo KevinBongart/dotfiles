@@ -1,3 +1,5 @@
+![](http://f.cl.ly/items/3E3W3o473O0G143A2v2A/netscape.gif)
+
 dotfiles
 ========
 
