@@ -10,7 +10,7 @@ These are my own config files for:
 - .pryrc
 - .rspec
 
-![screenshot](https://raw.github.com/KevinBongart/gitsome/master/screenshot.png)
+![screenshot](http://f.cl.ly/items/1d1y3s193C303w2q1325/screenshot.png)
 
 Using the dotfiles
 ------------------
