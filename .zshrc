@@ -20,6 +20,7 @@ plugins=(
   postgres
   rails
   rake-fast
+  spring
   sublime
   zsh_reload
   zsh-syntax-highlighting
