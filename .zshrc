@@ -30,7 +30,6 @@ source $ZSH/oh-my-zsh.sh
 source $ZSH_MODULES/path.sh
 source $ZSH_MODULES/aliases.sh
 source $ZSH_MODULES/autojump.sh
-source $ZSH_MODULES/go.sh
 source $ZSH_MODULES/git.sh
 source $ZSH_MODULES/mysql.sh
 source $ZSH_MODULES/rbenv.sh
