@@ -1,7 +1,7 @@
 {
   "auto_indent": true,
   "caret_style": "phase",
-  "color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
+  "color_scheme": "Packages/Base16 Color Schemes/base16-ocean.dark.tmTheme",
   "ensure_newline_at_eof_on_save": true,
   "fade_fold_buttons": false,
   "file_exclude_patterns":
@@ -31,7 +31,6 @@
     "*.sock",
     "*.suo",
     "*.woff",
-    "*capybara*",
     ".DS_Store"
   ],
   "folder_exclude_patterns":
@@ -43,6 +42,7 @@
     "log",
     "tmp",
     "solr",
+    "coverage",
     ".bundle",
     ".sass-cache"
   ],
@@ -56,7 +56,7 @@
   ],
   "scroll_past_end": true,
   "tab_size": 2,
-  "theme": "Soda Light.sublime-theme",
+  "theme": "Spacegray.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true
 }
