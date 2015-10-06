@@ -4,6 +4,7 @@ alias ga='git add --all'
 alias gc='git commit -v'
 alias gca='git add --all && git commit -v'
 alias gpr='git pull --rebase'
+alias grbm='git checkout master && git pull --rebase && git checkout - && git rebase master'
 alias push='git push'
 
 # Eject button for git
