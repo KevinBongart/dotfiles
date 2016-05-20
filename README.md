@@ -11,6 +11,8 @@ These are my own config files for:
 - .gitconfig
 - .pryrc
 - .rspec
+- 
+test
 
 ![screenshot](http://f.cl.ly/items/1d1y3s193C303w2q1325/screenshot.png)
 
